@@ -6,9 +6,9 @@ import cv2
 import os
 
 CONFIG = {"face" : "/face detector",
-		  "model" : "mask_detector_model",
+          "model" : "mask_detector_model",
       	  "image" : "/images",
-		  "confidence" : 0.5}
+	"confidence" : 0.5}
 
 prototxtPath = os.path.sep.join([CONFIG["face"], "deploy.prototxt"])
 weightsPath = os.path.sep.join([CONFIG["face"], "res10_300x300_ssd_iter_140000.caffemodel"])
