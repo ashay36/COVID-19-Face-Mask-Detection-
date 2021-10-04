@@ -26,7 +26,7 @@ Validation Accuracy : 100%
 # Overview
 <ul>
   <li>For training refer <i><b>mask_detection.ipynb</b></i></li>
-  <li>For testing on your own image run <i><b>detect_facemask.py</b></i></li>
+  <li>For testing on your own image run <i><b>predict_image.py</b></i></li>
 </ul> 
 
 <b> Techniques used to reduce overfitting </b>
